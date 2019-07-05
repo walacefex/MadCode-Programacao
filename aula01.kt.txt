@@ -1,0 +1,58 @@
+var pipoca = "milho estourado"
+
+//função principal
+
+fun main(){
+   print(pipoca)
+}
+
+
+
+
+//Tipos básicos de dados
+var nome = "Walace Felix"
+var idade =  21
+var altura = 1.70
+var casado = false
+
+//Tipagem Explícita
+var valor : Float = 2.75f
+
+//Função Principal
+fun main(){
+    
+}
+
+
+
+
+//Declarando Repositórios
+//Variáveis
+
+var idade = 21
+
+//Constantes
+val nome = "Walace"
+
+fun main(){
+    
+    idade = 22
+    //nome = "Priscila" - operação nunca será possível,
+    //pois nome é constante 
+}
+
+
+var casado = true
+
+//Trabalhando com condições
+
+fun main(){
+    if(!casado){
+        
+        print("Usuário Casado.")
+    }
+    else{
+        print("Usuário não é casado")
+    }
+}
+
